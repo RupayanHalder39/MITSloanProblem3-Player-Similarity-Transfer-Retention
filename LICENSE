@@ -1,0 +1,50 @@
+MIT License
+
+Copyright (c) 2026 Rupayan Halder
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+SCOPE AND EXCLUSIONS
+
+The MIT License above applies ONLY to the software in this repository: the
+Python source files under src/ and scripts/.
+
+It does NOT apply to, and grants no rights in:
+
+  1. The paper in paper/. All rights reserved by the authors. It is included
+     for reference and may not be redistributed or modified under the MIT terms.
+
+  2. The figures in figures/ and the aggregate tables in results/. These are
+     research outputs, made available for verification and academic citation.
+     They are derived from data that is not redistributable under these terms.
+
+  3. Any underlying player, transfer, match or competition data. None is
+     included in this repository. The sources are Transfermarkt-derived records
+     obtained through the dcaribou/transfermarkt-datasets project, whose
+     upstream rights position is unresolved, and an internal SoccerSolver
+     export carrying no redistribution licence. See docs/data_provenance.md.
+
+  4. The SoccerSolver name, logo and marks, including
+     assets/SoccerSolverLogo.png. Used with permission for attribution of the
+     research collaboration only. No trademark licence is granted.
+
+  5. The photograph assets/RupayanHalder.jpeg. All rights reserved.
+
+Data access and redistribution remain subject to separate authorization.

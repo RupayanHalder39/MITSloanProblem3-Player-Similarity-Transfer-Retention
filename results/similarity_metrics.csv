@@ -1,0 +1,12 @@
+metric,value,ci_lower,ci_upper,unit,evidence,description
+queries_held_out,6524.0,,,count,held-out,Frozen held-out similarity queries at the 900-minute operating point
+recall_at_10,0.2194972409564684,0.2093769160024524,0.2291538933169834,proportion,held-out,Same-player next-season retrieval within the top ten
+mrr,0.1247606409385125,,,proportion,held-out,Mean reciprocal rank
+median_rank,118.0,,,rank,held-out,Median rank of the correct historical profile
+coverage,1.0,,,proportion,held-out,Share of queries with a finite distance
+recall_at_10_same_club,0.28797083839611176,0.273876063183475,0.3018286755771567,proportion,held-out,Queries where the player stayed at the same club
+recall_at_10_cross_club,0.1025321710253217,0.0904939809049398,0.1145703611457036,proportion,held-out,Queries where the player changed club
+recall_at_10_outfield,0.2370500438981563,0.2259877085162423,0.2484635645302897,proportion,held-out,"Outfield players (N=5,695)"
+recall_at_10_goalkeeper,0.0989143546441495,0.0784077201447527,0.1194209891435464,proportion,held-out,Goalkeepers (N=829)
+candidate_pool_median,5884.0,2242,8262,count,held-out,"Position-matched candidates per query (median, min, max)"
+chance_recall_at_10,0.0017,,,proportion,derived,10 divided by the median candidate pool

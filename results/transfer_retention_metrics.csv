@@ -1,0 +1,17 @@
+metric,value,ci_lower,ci_upper,unit,evidence,description
+transfers_held_out,1724.0,,,count,held-out,Frozen held-out transfer events
+mae_full_model,0.4327142126670152,0.4169318687219577,0.4476148649168411,log-ratio error,held-out,"Ordinary least squares fitted on earlier, player-disjoint transfers"
+rmse_full_model,0.5426675543986795,,,log-ratio error,held-out,Root mean squared error
+median_absolute_error_full_model,0.3641397066966733,,,log-ratio error,held-out,Median absolute error
+spearman_full_model,0.638068648146715,,,correlation,held-out,Rank correlation between predicted and observed retention
+pearson_full_model,0.6752357340455226,,,correlation,held-out,Linear correlation
+mean_bias_full_model,0.1411753812107391,,,log-ratio,held-out,Mean predicted minus observed; positive means over-prediction
+mae_baseline_no_change,0.557380110507779,,,log-ratio error,held-out,Pre-set baseline: predict no change
+mae_baseline_training_median,0.557569377948879,,,log-ratio error,held-out,Pre-set baseline: training-set median
+mae_baseline_minute_band_median,0.4789945774884063,,,log-ratio error,held-out,Pre-set baseline: median within pre-transfer minute bands (strongest)
+mae_baseline_age_minute_band_median,0.4922209758791212,,,log-ratio error,held-out,Pre-set baseline: median within age-by-minute bands
+improvement_pct_vs_strongest_baseline,9.661980948523643,7.775720274444579,11.592650415988802,percent,held-out,Relative MAE reduction against the strongest pre-set baseline
+mae_exposure_only_reference,0.4521948828997867,,,log-ratio error,post-hoc,One-variable reference using prior playing time alone
+improvement_pct_vs_exposure_only,4.308025360182762,,,percent,post-hoc,Additional MAE reduction of the full model beyond the exposure-only reference
+mae_increase_pct_validation_to_test,6.856559830988821,,,percent,held-out,Error increase from validation to the held-out evaluation
+largest_errors_sharp_decline_overpredictions,19.0,,,count of 20,post-hoc,"Among the 20 largest errors, sharp declines that were over-predicted"

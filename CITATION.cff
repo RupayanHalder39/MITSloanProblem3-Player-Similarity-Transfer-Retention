@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or its published results, please cite the associated research."
+title: "Beyond Like-for-Like: Linking Player Similarity with Post-Transfer Playing-Time Retention"
+type: software
+authors:
+  - given-names: "Rupayan"
+    family-names: "Halder"
+    affiliation: "Jadavpur University, Kolkata"
+  - name: "ADDITIONAL AUTHOR(S), IF ANY, TO BE CONFIRMED"
+repository-code: "https://github.com/RupayanHalder39/MITSloanProblem3-Player-Similarity-Transfer-Retention"
+license: MIT
+abstract: >-
+  Code, aggregate results and figures for a held-out evaluation of two separate football recruitment
+  signals: behavioural player similarity retrieval and post-transfer playing-time retention. The two
+  modules are evaluated independently and are not combined into a single recruitment score. Developed
+  in collaboration with SoccerSolver. Underlying player and transfer data are not redistributed.
+keywords:
+  - football
+  - soccer analytics
+  - player similarity
+  - transfer market
+  - recruitment
+  - held-out evaluation

@@ -1,0 +1,8 @@
+analysis,stratum,n,recall_at_10,mrr,median_rank,evidence,description
+context_change,"same club, same competition",3617,0.3049488526403096,0.1771065538239388,50.0,post-hoc stratification of held-out queries,Player stayed at the same club in the same competition
+context_change,"same club, different competition",498,0.1646586345381526,0.0791280065648571,249.0,post-hoc stratification of held-out queries,"Same club, competition changed"
+context_change,"different club, same competition",1206,0.1393034825870646,0.074947941270294,173.0,post-hoc stratification of held-out queries,Club changed within one competition
+context_change,"different club, different competition",1203,0.0656691604322527,0.0362020381216922,496.0,post-hoc stratification of held-out queries,Both club and competition changed
+minimum_minutes,450 minutes,11078,0.1555334897996028,0.0878207911360139,243.0,post-hoc sensitivity,Eligibility threshold of 450 minutes played
+minimum_minutes,900 minutes,6524,0.2194972409564684,0.1247606409385125,118.0,held-out operating point,Eligibility threshold of 900 minutes played
+minimum_minutes,1350 minutes,3718,0.28617536309844,0.1650689664244053,59.0,post-hoc sensitivity,Eligibility threshold of 1350 minutes played

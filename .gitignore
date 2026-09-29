@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Restricted or derived data must never be committed
+*.parquet
+*.db
+*.sqlite
+*.duckdb
+*.sql
+*.csv.gz
+*.joblib
+*.pkl
+*.pickle
+
+# Scratch
+cache/
+tmp/
+temp/
